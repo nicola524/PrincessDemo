@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="princess.theme.dark_blue.background">#3C5F78</color>
+    <color name="princess.theme.dark_blue.colorPrimary">#3C5F78</color>
+    <color name="princess.theme.dark_blue.colorPrimaryDark">#3C5F78</color>
+    <color name="princess.theme.dark_blue.colorAccent">#DDF9FF</color>
+    <color name="red">#FF0000</color>
+</resources>

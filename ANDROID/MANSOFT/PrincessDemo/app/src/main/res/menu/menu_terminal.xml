@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="it.nicolabrogelli.manosoft.princessdemo.TerminalActivity">
+
+    <item android:id="@+id/action_connect"
+        android:title="@string/action_connect"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_disconnect"
+        android:title="@string/action_disconnect"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_up"
+        android:title="UP"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_root"
+        android:title="ROOT"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_crlf"
+        android:title="@string/action_crlf"
+        android:checkable="true"
+        android:checked="false"
+        android:visible="false"
+        app:showAsAction="never" />
+
+</menu>

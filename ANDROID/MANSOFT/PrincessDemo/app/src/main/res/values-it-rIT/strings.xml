@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Princess Bluetooth</string>
+    <string name="status_disconnected">Disconnesso</string>
+    <string name="status_connecting">Connessione ....</string>
+    <string name="status_connected">Connesso a %1$s</string>
+    <string name="action_connect">Connetti</string>
+    <string name="action_disconnect">Disconnetti</string>
+    <string name="action_crlf">CRLF</string>
+    <string name="action_quit">Uscita</string>
+    <string name="no_bluetooth">Bluetooth non disponibile su questo dispositivo.</string>
+    <string name="command_hint">Inserire un comando.....</string>
+    <string name="terminal_message_template">"%1$s > %2$s "</string>
+    <string name="terminal_message">%1$s > %2$s</string>
+    <string name="paired_devices">Selezionare un dispositivo</string>
+</resources>

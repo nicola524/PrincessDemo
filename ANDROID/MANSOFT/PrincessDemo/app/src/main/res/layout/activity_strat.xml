@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="it.nicolabrogelli.manosoft.princessdemo.StratActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/btnUiPrincess"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ui"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FFFFFF"
+        android:layout_marginTop="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/btnTerminalPrincess"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/terminal"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FFFFFF"
+        android:layout_below="@+id/btnUiPrincess"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp" />
+
+
+</RelativeLayout>
+
